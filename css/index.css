@@ -89,13 +89,14 @@ section, footer{
 .top-content .text-container {
     width: 35%;
     padding: 0 1%;
-    padding-bottom: 4%;  
+    /* padding-bottom: 4%;   */
 }
 
 /*Middle Section Styles*/
 .middle-content {
     padding: 0;
     margin-bottom: 4%;
+    border-bottom: 2px solid #ff4b00;
 }
 
 .middle-content h2 {
@@ -108,7 +109,7 @@ section, footer{
     justify-content:space-between;
     align-items: center;
     margin: 4% 0;
-    margin: -10px 0 0 0;
+    margin: -10px 0 5% 0;
 }
 
 .middle-content .boxes > * {
@@ -117,10 +118,11 @@ section, footer{
 
 .middle-content .boxes .box {
     background: black;
-    height: 15vw;
-    width: 15vw;
+    height: 10vw;
+    width: 10vw;
     color: white;
     display: flex;
+    margin:2vw;
     align-items: center;
     justify-content: center;
 }
@@ -156,14 +158,15 @@ footer {
 .global-nav .buttons{
     /* border: 1px solid red; */
     display: flex;
+    padding-left: 10%;
     width: 80%;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .global-nav .buttons a{
     /* border: 1px solid red; */
-    font-size: 2.25rem;
+    font-size: 2rem;
     color: black;
     text-decoration: none;
 }
@@ -201,6 +204,48 @@ header .header-img{
     background-repeat: no-repeat;
 }
 
+#box-1{
+    background-color: teal;
+}
+
+#box-2{
+    background-color: gold;
+}
+#box-3{
+    background-color: cadetblue;
+}
+#box-4{
+    background-color:coral;
+}
+#box-5{
+    background-color:crimson;
+}
+#box-6{
+    background-color:forestgreen;
+}
+#box-7{
+    background-color: darkorchid;
+}
+
+#box-8{
+    background-color: hotpink;
+}
+#box-9{
+    background-color: indigo;
+}
+#box-10{
+    background-color: dodgerblue;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer nav a{
+    text-decoration: none;
+    color: white;
+}
 /*About Page Styles*/
 
 
